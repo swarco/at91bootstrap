@@ -33,6 +33,7 @@ source "board/sam9x60ek/Config.in.board"
 source "board/sam9x60_ddr2_sip_eb/Config.in.board"
 source "board/sam9x60_sdr_sip_eb/Config.in.board"
 source "board/sama7g5ek/Config.in.board"
+source "board/scc-air-v2/Config.in.board"
 source "contrib/board/Config.in.board"
 
 endchoice
@@ -64,6 +65,7 @@ config BOARDNAME
 	default "sam9x60_ddr2_sip_eb" if SAM9X60_DDR2_SIP_EB
 	default "sam9x60_sdr_sip_eb" if SAM9X60_SDR_SIP_EB
 	default "sama7g5ek" if SAMA7G5EK
+	default "scc-air-v2" if SCC_AIR_V2
 source "contrib/board/Config.in.boardname"
 
 config AT91SAM9260

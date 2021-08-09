@@ -11,7 +11,7 @@ fd.close()
 
 if sys.argv[3] == "sama5d2_ptc_ek":
 	pmecc_word = pmecc_head.gen_pmecc_header(2048, 64, 4, 512)
-elif sys.argv[3].startswith("sama5d3"):
+elif sys.argv[3].startswith("sama5d3") or sys.argv[3] == "scc-air-v2":
 	pmecc_word = pmecc_head.gen_pmecc_header(2048, 64, 4, 512)
 elif sys.argv[3] == "sama5d4ek" or sys.argv[3] == "sama5d4_xplained":
 	pmecc_word = pmecc_head.gen_pmecc_header(4096, 224, 8, 512)

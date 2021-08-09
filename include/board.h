@@ -128,6 +128,10 @@
 #include "sama7g5ek.h"
 #endif
 
+#ifdef CONFIG_SCC_AIR_V2
+#include "scc-air-v2.h"
+#endif
+
 #include "contrib_board.h"
 
 /*
