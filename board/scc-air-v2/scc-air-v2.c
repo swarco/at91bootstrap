@@ -364,7 +364,7 @@ void at91_disable_smd_clock(void)
 void hw_init(void)
 {
 	/* Disable watchdog */
-	at91_disable_wdt();
+	// at91_disable_wdt();
 
 	/*
 	 * At this stage the main oscillator
